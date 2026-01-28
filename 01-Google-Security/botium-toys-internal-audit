@@ -1,1 +1,51 @@
+# Internal IT Audit: Botium Toys 🛡️
 
+## 📝 Project Overview
+This project consists of a comprehensive internal IT audit for **Botium Toys**, a fictional toy retailer expanding globally. The goal was to assess the company's security posture, identify vulnerabilities, and ensure compliance with international regulations (**GDPR**, **PCI DSS**) using the **NIST Cybersecurity Framework (CSF)**.
+
+## 🎯 Objectives
+* Evaluate existing IT assets and infrastructure.
+* Conduct a risk assessment to identify threats and vulnerabilities.
+* Complete a controls and compliance checklist.
+* Provide strategic recommendations to mitigate a high risk score (8/10).
+
+---
+
+## 🔍 Audit Components
+
+### 1. Risk Assessment
+The audit identified critical gaps in the "Identify", "Protect", and "Detect" functions of the NIST CSF. 
+* **High Risk Score:** 8/10
+* **Critical Findings:** Lack of data encryption, absence of disaster recovery plans, and inadequate access controls (Least Privilege).
+
+### 2. Controls & Compliance Checklist
+I evaluated the current state of security controls. Below is a summary of the findings:
+
+| Control Category | Status |
+| :--- | :--- |
+| **Firewall & Antivirus** | ✅ Implemented |
+| **Physical Security (CCTV/Locks)** | ✅ Implemented |
+| **Data Encryption (At Rest/Transit)** | ❌ Missing |
+| **Intrusion Detection System (IDS)** | ❌ Missing |
+| **Disaster Recovery / Backups** | ❌ Missing |
+| **Least Privilege Access** | ❌ Missing |
+
+### 3. Regulatory Compliance
+* **PCI DSS:** Non-compliant due to lack of encryption and weak password policies.
+* **GDPR:** Partially compliant; breach notification plan is in place, but data privacy and classification need improvement.
+
+---
+
+## 💡 Strategic Recommendations
+1.  **Encryption & Backups:** Implement AES-256 encryption and off-site backups immediately.
+2.  **Access Management:** Deploy an IAM system to enforce the Principle of Least Privilege.
+3.  **Monitoring:** Install an IDS to enhance threat detection capabilities.
+4.  **Policy Update:** Modernize password requirements and implement centralized management.
+
+---
+
+## 🛠️ Tools & Frameworks Used
+* **NIST Cybersecurity Framework (CSF)**
+* **PCI DSS** (Payment Card Industry Data Security Standard)
+* **GDPR** (General Data Protection Regulation)
+* **Risk Assessment Methodologies**
